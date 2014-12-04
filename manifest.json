@@ -1,0 +1,6 @@
+{
+	"autostart": [
+		"xmlrpc",
+		"xmlrpc-test"
+	]
+}
