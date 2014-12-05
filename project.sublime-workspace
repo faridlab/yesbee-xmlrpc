@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"console"
+			],
+			[
 				"ex",
 				"exchange"
 			],
@@ -58,10 +62,6 @@
 			[
 				"pro",
 				"proxy"
-			],
-			[
-				"con",
-				"context"
 			],
 			[
 				"add",
@@ -526,6 +526,22 @@
 				"buffer_size": 1985,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "components/xmlrpc.js",
+			"settings":
+			{
+				"buffer_size": 5288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "services/xmlrpc.js",
+			"settings":
+			{
+				"buffer_size": 7011,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "node-build",
@@ -616,10 +632,12 @@
 	"expanded_folders":
 	[
 		"/Users/faridhidayat/Workspace/xinix/nodejs/yesbee-xmlrpc",
+		"/Users/faridhidayat/Workspace/xinix/nodejs/yesbee-xmlrpc/components",
 		"/Users/faridhidayat/Workspace/xinix/nodejs/yesbee-xmlrpc/services"
 	],
 	"file_history":
 	[
+		"/Users/faridhidayat/Workspace/xinix/nodejs/yesbee-xmlrpc/node_modules/xmlrpc/lib/deserializer.js",
 		"/Users/faridhidayat/Workspace/web/mcoin/core-acquirer/src/MCoin/Schema/FeeStructure.php",
 		"/Users/faridhidayat/Workspace/web/mcoin/core-acquirer/templates/merchant/checkout.blade.php",
 		"/Users/faridhidayat/Workspace/web/mcoin/core-acquirer/config/collections/Checkout.php",
@@ -746,18 +764,18 @@
 		"/Users/faridhidayat/Workspace/web/mcoin/merchant-portal/vendor/guzzle/guzzle/docs/plugins/cache-plugin.rst",
 		"/Users/faridhidayat/Workspace/web/mcoin/merchant-portal/vendor/composer/autoload_classmap.php",
 		"/Users/faridhidayat/Workspace/web/mcoin/merchant-portal/vendor/guzzle/guzzle/docs/plugins/curl-auth-plugin.rst",
-		"/Users/faridhidayat/Workspace/web/mcoin/merchant-portal/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlHandle.php",
-		"/Users/faridhidayat/Workspace/web/mcoin/merchant-portal/node_modules/mustache/CHANGES"
+		"/Users/faridhidayat/Workspace/web/mcoin/merchant-portal/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlHandle.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"",
 			"*.php",
 			"*.js",
 			"",
@@ -832,6 +850,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"xmlrpc::params",
+			"Unexpected token",
+			"unex",
+			"error",
+			"method",
+			"faridhidayat",
 			" =>",
 			"prin",
 			"var",
@@ -953,13 +977,7 @@
 			"<plugin name=\"org.apache.cordova.facebook.Connect\" value=\"org.apache.cordova.facebook.ConnectPlugin\" />",
 			"CFBundleURLTypes",
 			"when",
-			"android/sdk",
-			"facebook",
-			"DialogAdapter",
-			"config",
-			".update",
-			"updateStatus",
-			"update"
+			"android/sdk"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1003,8 +1021,8 @@
 						"selection":
 						[
 							[
-								1265,
-								1265
+								1295,
+								1295
 							]
 						],
 						"settings":
@@ -1020,6 +1038,72 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/xmlrpc.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2516,
+								2516
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 788.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "services/xmlrpc.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2686,
+								2686
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 853.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1599,6 +1683,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"check",
+				"~/Workspace/web/project/mcoin/checkout-system/project.sublime-project"
+			],
 			[
 				"core",
 				"~/Workspace/web/project/mcoin/core-acquirer/project.sublime-project"
